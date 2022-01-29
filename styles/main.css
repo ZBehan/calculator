@@ -50,6 +50,8 @@ body {
 
 .key-pad button:hover {
     background: #31B485;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-    border-radius: 5px;
+}
+
+.key-pad button:active {
+    transform: scale(0.9);
 }
